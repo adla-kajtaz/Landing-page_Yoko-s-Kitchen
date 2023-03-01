@@ -1,0 +1,124 @@
+body {
+    background-image: url("images/dark-wood.jpg");
+    background-color: #cccccc;
+    font-family: Georgia, Times, serif;
+    color: #666666;
+    display: block;
+    margin: 8px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    background-color: white;
+}
+
+header {
+    background-image: url("images/header.jpg");
+    padding-top: 130px;
+}
+
+li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: black;
+}
+
+ul {
+    background-color: gray;
+    padding: 7px;
+    margin: 0;
+}
+
+.current {
+    color: black;
+}
+
+.courses {
+    float: left;
+    width: 70%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+}
+
+article {
+    clear: left;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+figure {
+    background-color: white;
+    float: left;
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    margin: 20px;
+}
+
+footer {
+    background-color: gray;
+    clear: left;
+    color: white;
+    font-size: 80%;
+    padding-top: 7px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+a {
+    color: #de6581;
+    text-decoration: none;
+}
+
+h2,
+h3 {
+    font-weight: normal;
+}
+
+h2 {
+    padding: 0px;
+    margin: 10px 0px 5px 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+
+aside h2 {
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    color: #de6581;
+}
+
+aside section a {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
